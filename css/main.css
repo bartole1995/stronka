@@ -6,7 +6,7 @@ html, body {
 }
 
 .strap {
-	background-color: aqua;
+	background-color: black;
 	width: 100%;
 	min-height: 10%;
 	height: auto;
@@ -15,10 +15,10 @@ html, body {
 
 .strap a {
 	padding: 0.4%;
-	background-color: aqua;
+	background-color:grey;
 	color: black;
 	width: 12%;
-	min-height: 7%;
+	min-height: 6%;
 	height: auto;
 	float: left;
 	text-align: center;
@@ -30,12 +30,12 @@ html, body {
 }
 
 .active{
-	background-color: #6495ED  !important;
+	background-color: #7FFFD4  !important;
 }
 
 .content {
-	background-color: darkcyan;
-	min-height: 79%;
+	
+	min-height: 85%;
 	height: auto;
 	width: 100%;
 	float: left;
@@ -43,16 +43,17 @@ html, body {
 }
 
 .footer {
+	
 	min-height: 10%;
 	height: auto;
 	width: 100%;
 	float: left;
-	background-color: aqua;
+	background-color: black;
 	color: pink;
 }
 
 .footer, a {
-	color: black;
+	color: white;
 	text-decoration: none;
 	text-align: center;
 }
