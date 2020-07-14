@@ -1,0 +1,120 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	font-family: Arial, serif;
+}
+
+.strap {
+	background-color: aqua;
+	width: 100%;
+	min-height: 10%;
+	height: auto;
+	float: left;
+}
+
+.strap a {
+	padding: 0.4%;
+	background-color: aqua;
+	color: black;
+	width: 12%;
+	min-height: 7%;
+	height: auto;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+}
+
+.strap a:hover {
+	background-color: #7FFFD4 ;
+}
+
+.active{
+	background-color: #6495ED  !important;
+}
+
+.content {
+	background-color: darkcyan;
+	min-height: 79%;
+	height: auto;
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+.footer {
+	min-height: 10%;
+	height: auto;
+	width: 100%;
+	float: left;
+	background-color: aqua;
+	color: pink;
+}
+
+.footer, a {
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+
+ul { 
+	list-style-type: none;
+}
+
+.photos {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+#HomePhoto {
+	height: 400px;
+	width: 800px;
+	border-radius: 8%;
+}
+
+img {
+	height: 270px;
+	width: auto;
+	border-radius: 5%;
+}
+
+video {
+	border-radius: 7%;
+	width: 40%;
+	height: 40%;
+}
+
+table {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+#newX {
+	width: 70%;
+	height: 35px;
+	background-color: aqua;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 1px;
+	padding: 2px;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	float: left;
+	word-wrap: break-word;
+}
+
+#delete, #edit {
+	float: right;
+	text-decoration: underline;
+	cursor: pointer;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+button {
+	margin-top: 1%;
+}
